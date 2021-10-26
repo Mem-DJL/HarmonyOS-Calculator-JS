@@ -1,0 +1,144 @@
+.container {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #FFFFFF;
+}
+
+.show-container {
+    width: 100%;
+    height: 30%;
+    flex-direction: column;
+    background-color: #FFFFFF;
+}
+
+.expression-container {
+    width: 100%;
+    height: 70%;
+    align-items: flex-end;
+}
+
+.expression-text {
+    margin-end: 15px;
+    width: 100%;
+    font-size: 60fp;
+    text-color: #000000;
+    text-align: end;
+}
+
+.result-container {
+    margin-top: 10px;
+    width: 100%;
+    height: 30%;
+    align-items: flex-start;
+}
+
+.result-text {
+    margin-end: 15px;
+    width: 100%;
+    text-align: end;
+    font-size: 36fp;
+    text-color: #000000;
+}
+
+.keyboard-container {
+    width: 100%;
+    height: 70%;
+    border-radius: 20px;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #F7F7F7;
+}
+
+.keyboard {
+    align-items: center;
+    width: 360px;
+    height: 90px;
+}
+
+.keyboard-bottom-container {
+    width: 360px;
+    height: 180px;
+    flex-direction: row;
+}
+
+.keyboard-bottom-left-item {
+    width: 260px;
+    height: 100%;
+    flex-direction: column;
+}
+
+.keyboard-bottom-right-item {
+    width: 100px;
+    height: 100%;
+    align-items: center;
+}
+
+.keyboard-button {
+    margin-start: 21px;
+    background-color: #FFFFFF;
+    radius: 32px;
+    box-shadow: 0px 0px 3px 3px #E7E8E9;
+    font-size: 26fp;
+    text-color: #757575;
+}
+
+.icon-button {
+    icon-width: 45px;
+    icon-height: 45px;
+}
+
+.op-num {
+    font-size: 36fp;
+    text-color: #000000;
+}
+
+.op-code {
+    font-size: 36fp;
+    text-color: #1E90FF;
+}
+
+.op-equal {
+    margin-start: 18px;
+    width: 64px;
+    height: 154px;
+    box-shadow: 0px 0px 3px 3px #E7E8E9;
+    background-color: #0B5AF7;
+    font-size: 36fp;
+    text-color: #FFFFFF;
+}
+
+@media screen and (device-type: tablet) and (orientation: landscape) {
+    .title {
+        font-size: 100px;
+    }
+}
+
+@media screen and (device-type: wearable) {
+    .title {
+        font-size: 28px;
+        color: #FFFFFF;
+    }
+}
+
+@media screen and (device-type: tv) {
+    .container {
+        background-image: url("/common/images/Wallpaper.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .title {
+        font-size: 100px;
+        color: #FFFFFF;
+    }
+}
+
+@media screen and (device-type: phone) and (orientation: landscape) {
+    .title {
+        font-size: 60px;
+    }
+}

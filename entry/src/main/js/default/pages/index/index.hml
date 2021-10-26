@@ -1,0 +1,54 @@
+<div class="container">
+    <div class="show-container">
+        <div class="expression-container">
+            <text class="expression-text">{{expression}}</text>
+        </div>
+        <div class="result-container">
+            <text class="result-text">{{result}}</text>
+        </div>
+    </div>
+    
+    <div class="keyboard-container">
+        <div class="keyboard">
+            <button class="keyboard-button" type="circle">MC</button>
+            <button class="keyboard-button" type="circle">M+</button>
+            <button class="keyboard-button" type="circle">M-</button>
+            <button class="keyboard-button" type="circle">MR</button>
+        </div>
+        <div class="keyboard">
+            <button class="keyboard-button op-code" type="circle">C</button>
+            <button class="keyboard-button op-code icon-button" type="circle" icon="/common/images/icon_divide.png"></button>
+            <button class="keyboard-button op-code icon-button" type="circle" icon="/common/images/icon_multiply.png"></button>
+            <button class="keyboard-button op-code icon-button" type="circle" icon="/common/images/icon_backspace.png"></button>
+        </div>
+        <div class="keyboard">
+            <button class="keyboard-button op-num" type="circle">7</button>
+            <button class="keyboard-button op-num" type="circle">8</button>
+            <button class="keyboard-button op-num" type="circle">9</button>
+            <button class="keyboard-button op-code icon-button" type="circle" icon="/common/images/icon_minus.png"></button>
+        </div>
+        <div class="keyboard">
+            <button class="keyboard-button op-num" type="circle">4</button>
+            <button class="keyboard-button op-num" type="circle">5</button>
+            <button class="keyboard-button op-num" type="circle">6</button>
+            <button class="keyboard-button op-code icon-button" type="circle" icon="/common/images/icon_add.png"></button>
+        </div>
+        <div class="keyboard-bottom-container">
+           <div class="keyboard-bottom-left-item">
+               <div class="keyboard">
+                   <button class="keyboard-button op-num" type="circle">1</button>
+                   <button class="keyboard-button op-num" type="circle">2</button>
+                   <button class="keyboard-button op-num" type="circle">3</button>
+               </div>
+               <div class="keyboard">
+                   <button class="keyboard-button op-num" type="circle">%</button>
+                   <button class="keyboard-button op-num" type="circle">0</button>
+                   <button class="keyboard-button op-num" type="circle">.</button>
+               </div>
+           </div>
+            <div class="keyboard-bottom-right-item">
+                <button class="op-equal" type="capsule">=</button>
+            </div>
+        </div>
+    </div>
+</div>
